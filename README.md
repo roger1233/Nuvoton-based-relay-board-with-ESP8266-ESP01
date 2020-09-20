@@ -1,7 +1,7 @@
 # Nuvoton-based-relay-board-with-ESP8266-ESP01
 Control relays on a nuvoton-based ESP-8266 ESP-01
 
-Got two boards with 2 relays from Aliexpress, before these I got others with only on relay, but based on a STC on-board serial controler.
+Got two boards with 2 relays from Aliexpress (this one: https://www.aliexpress.com/item/32950213696.html ), before these I got others with only on relay, but based on a STC on-board serial controler.
 
 The STC kind works well, you need to talk to it through the serial interface (TX pin) like so:
 
