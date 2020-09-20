@@ -62,7 +62,7 @@ void setup()
   
 }
 ```
-This will properly initialize the board, BUT, just after that, if you send a relay ON or OFF string, it will work, but with a 10 second (approx) delay the first time. Then, it will work correctly all the time.
+This will properly initialize the board, BUT, just after that, if you send a relay ON or OFF string, it will work, but with a 10 second (approx) delay the first time. Then, it will work correctly all the time. Led D6 on the bpard needs to start blinking before the commands are working.
 
 This means that after boot, you have a 5 second wait time before sending the string, and then a approx 10 seconds where even if you send commands, they seem to be cached and executed after 10 seconds. After that initial 10 second wait, all commands are executed immediately.
 
