@@ -12,7 +12,7 @@ Serial.write(0x00); // shut it off (0)
 Serial.write(0xa1); // checksum
 ```
 
-But, unfortunately, for my Novoton-based board, it did not work, my commands were ignored.
+But, unfortunately, for my Nuvoton-based board, it did not work, my commands were ignored.
 
 Then, I stepped on this article: https://tasmota.github.io/docs/devices/LC-Technology-WiFi-Relay/
 
